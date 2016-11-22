@@ -101,8 +101,9 @@ GameObject:
   - 222: {fileID: 54271088}
   - 114: {fileID: 54271087}
   - 114: {fileID: 54271086}
+  - 114: {fileID: 54271089}
   m_Layer: 5
-  m_Name: Button
+  m_Name: AdviceBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,7 +126,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -301, y: 90.499985}
+  m_AnchoredPosition: {x: -343, y: -191}
   m_SizeDelta: {x: 120, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &54271086
@@ -166,7 +167,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 54271087}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 54271089}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &54271087
@@ -202,6 +214,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 54271084}
+--- !u!114 &54271089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 54271084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38d4638d11184f1cac92e6fe2c0ce17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &709915109
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,8 +323,9 @@ GameObject:
   - 222: {fileID: 734213169}
   - 114: {fileID: 734213168}
   - 114: {fileID: 734213167}
+  - 114: {fileID: 734213170}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: TraningBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -323,7 +347,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 384, y: 92}
+  m_AnchoredPosition: {x: 362, y: -193}
   m_SizeDelta: {x: 120, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734213167
@@ -364,7 +388,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 734213168}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 734213170}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &734213168
@@ -400,6 +435,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 734213165}
+--- !u!114 &734213170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 734213165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38d4638d11184f1cac92e6fe2c0ce17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &734303099
 GameObject:
   m_ObjectHideFlags: 0
@@ -581,7 +627,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 827524004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -380, y: 331, z: 0}
+  m_LocalPosition: {x: -384, y: 153, z: 0}
   m_LocalScale: {x: 15, y: 15, z: 10}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -704,7 +750,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30DA\u30FC\u30B9\u30E1\u30FC\u30AB\u30FC\u30E2\u30FC\u30C9"
+  m_Text: "\u30C8\u30EC\u30FC\u30CB\u30F3\u30B0\u30E2\u30FC\u30C9"
 --- !u!222 &964391347
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -921,7 +967,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30E9\u30F3\u30CB\u30F3\u30B0\u30E2\u30FC\u30C9"
+  m_Text: "\u30A2\u30C9\u30D0\u30A4\u30B9\u30E2\u30FC\u30C9"
 --- !u!222 &1638405915
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/Scenes/AdviceScene.unity
   - enabled: 1
     path: Assets/Scenes/TrainingScene.unity
+  - enabled: 1
+    path: Assets/Scenes/PacemakerSelectScene.unity

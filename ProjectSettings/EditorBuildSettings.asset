@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Scenes/PacemakerSelectScene.unity
   - enabled: 1
     path: Assets/Scenes/CourseSelectScene.unity
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity

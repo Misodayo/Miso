@@ -8,10 +8,10 @@ public class modeSelect : MonoBehaviour {
 
 		switch (transform.name) {
 		case "AdviceBtn":
-			SceneManager.LoadScene ("AdviceScene");
+			SceneManager.LoadScene("AdviceScene");
 			break;
 		case "TraningBtn":
-
+			SceneManager.LoadScene("TrainingScene");
 			break;
 		default:
 			break;
